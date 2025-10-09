@@ -1,19 +1,25 @@
-# EDA - Treinamento
+# EDA - Training
 
 Repositório dedicado ao armazenamento e organização de *Exploratory Data Analysis* (EDAs).
 
-## Objetivo
+## Main Goal
 
-Estudar e explorar as ferramentas `pandas`, `matplotlib`, `scikit-learn` para a análise de dados aplicado em alguns DataSets encontrado no [Kaggle](https://www.kaggle.com/)
+This repository is for study Python's most used Libraries for Data Science and Data Analysis:
+- [pandas](https://pandas.pydata.org/docs/)
+- [matplotlib](https://matplotlib.org/)
+- [numpy](https://numpy.org/doc/)
 
-## Estrutura
+## Data Sets
+All data sets used here is from [Kaggle](https://www.kaggle.com/).
 
-- `eda/`: Lista de diretórios contendo as EDAs.
-- `notas/`: Informações importantes sobre comandos e boas práticas.
+- [Earthquake](https://www.kaggle.com/datasets/ibrahimqasimi/earthquacks?resource=download)
+- [Spotify](https://www.kaggle.com/datasets/nabihazahid/spotify-dataset-for-churn-analysis)
 
-## Como contribuir
 
-1. Faça um fork do repositório.
-2. Crie uma branch para sua contribuição.
-3. Envie um pull request com suas alterações.
+## Structure
+
+- `eda/`: All notebooks with Notebooks.
+- `notes/`: Notes from the EDAs and some insights.
+
+
 
