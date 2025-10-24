@@ -7,9 +7,9 @@ Also, take notes and get codes to use constantily in other EDA's.
 ```shell
 git clone https://github.com/cristianism0/EDA-Estudos
 ```
-After this, you can open the directory and install all dependencies in requirements.txt:
+After this, you can open the directory and install all dependencies in enviroment.yml:
 ```shell
-pip install requirements.txt
+conda install -f enviroment.yml
 ```
 
 ## Main Goal
@@ -22,7 +22,7 @@ This repository is for study Python's most used Libraries for Data Science and D
 ## Data Sets
 All data sets used here is from [Kaggle](https://www.kaggle.com/).
 
-- [Earthquake](https://www.kaggle.com/datasets/ibrahimqasimi/earthquacks?resource=download)
+- [Life-Style](https://www.kaggle.com/datasets/jockeroika/life-style-data?resource=download)
 - [Spotify](https://www.kaggle.com/datasets/nabihazahid/spotify-dataset-for-churn-analysis)
 
 
