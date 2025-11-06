@@ -12,6 +12,17 @@ After this, you can open the directory and install all dependencies in enviromen
 conda install -f enviroment.yml
 ```
 
+Or, if want to create a new enviroment:
+```shell
+conda env create -f enviroment.yml
+```
+
+Now, you will have a `eda-study` enviroment, use: `conda info --envs` to se all of them.
+```shell
+conda activate eda-study
+```
+to activate the enviroment, and the use `deactivate` to turn it off.
+
 ## Main Goal
 
 This repository is for study Python's most used Libraries for Data Science and Data Analysis:
