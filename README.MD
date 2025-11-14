@@ -7,21 +7,17 @@ Also, take notes and get codes to use constantily in other EDA's.
 ```shell
 git clone https://github.com/cristianism0/EDA-Estudos
 ```
-After this, you can open the directory and install all dependencies in enviroment.yml:
+After this, you can open the directory and install all dependencies in pyproject.toml:
 ```shell
-conda install -f enviroment.yml
+pip install .
 ```
+On the root, where pyproject.toml is.
 
-Or, if want to create a new enviroment:
-```shell
-conda env create -f enviroment.yml
-```
+If you're using [UV](https://github.com/astral-sh/uv) and you should, just use:
 
-Now, you will have a `eda-study` enviroment, use: `conda info --envs` to se all of them.
 ```shell
-conda activate eda-study
+uv pip install -e .
 ```
-to activate the enviroment, and the use `deactivate` to turn it off.
 
 ## Main Goal
 
